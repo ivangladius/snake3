@@ -1,5 +1,0 @@
-#!/bin/bash
-
-rm main
-g++ -o main main.cpp snake.cpp  -lncurses
-./main $(stty size)
